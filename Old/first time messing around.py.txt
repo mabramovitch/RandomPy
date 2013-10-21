@@ -1,0 +1,37 @@
+PythonWin 2.7.5 (default, May 15 2013, 22:43:36) [MSC v.1500 32 bit (Intel)] on win32.
+Portions Copyright 1994-2008 Mark Hammond - see 'Help/About PythonWin' for further copyright information.
+>>> #what is this
+>>> 
+>>> 2+3
+5
+>>> def first(str):
+... 	return str[0]
+... 
+>>> first("hello")
+'h'
+
+>>> 
+>>> 2**4
+16
+
+>>> def lessthan5(num):
+... 	if num < 5:
+... 		print "yep"
+... 	else: print "nope"
+... 	
+>>> lessthan5(4)
+yep
+>>> lessthan5(15)
+nope
+>>> 
+
+>>> def greeting():
+... 	name = (raw_input("Who are you? "))
+... 	print "Hello, ", name
+... 	
+>>> 
+>>> greeting()
+Hello,  Michael
+>>> greeting()
+Hello,  Mr. President
+>>> 
